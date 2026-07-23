@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Space Grotesk";
+    src: url("./assets/font/static/SpaceGrotesk-Medium.ttf")
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+:root{
+  --fondoPrincipal: #12131A;
+  --fondoGeneral: #1C1F2A;
+  --textoPrincipal: #F2F2F7;
+  --textoSecundario: #B4B7C9;
+  --cardVioleta: #C99DFF;
+  --cardNaranja: #FFB21E;
+  --cardCoral: #FF8A65;
+  --barraProgreso: #D19BFF;
+  --bordes: #2A2D3A;
+}
+
+body{
+    background-color: var(--fondoPrincipal);
+    display: flex;
+    flex-direction: column;
+}

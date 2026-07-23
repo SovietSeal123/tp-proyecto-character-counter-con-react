@@ -1,0 +1,37 @@
+.header .imagenLogo{
+    width: 70px;
+    height: 70px;
+    padding-inline: 5px;
+}
+
+.header .imagenBoton{
+    width: 50px;
+    height: 50px;
+    padding-inline: 5px;
+    
+}
+
+.header h2{
+    color: var(--textoSecundario)
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header button{
+    background-color: var(--fondoGeneral);
+    margin-left: auto;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 12px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.header button:hover{
+    scale: 1.1;
+    background-color: white;
+}

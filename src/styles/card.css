@@ -28,7 +28,9 @@
     border-radius: 12px;
     background-repeat: no-repeat;
     background-position: right center;
-    background-size: 127px;
+    background-size: 150px;
+    width: 250px;
+    height: 140px;
 }
 
 .card h3 {

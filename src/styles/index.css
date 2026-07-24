@@ -114,3 +114,16 @@ span, p{
     margin: 15px auto 0;
     gap: 15px;
 }
+
+.titulo-Densidad {
+   color: var(--textoPrincipal);
+   width: 70vw;
+   max-width: 800px;
+   min-width: 250px;
+   margin: 40px auto 0;
+}
+
+.contenedor-barras {
+  width: clamp(250px, 70vw, 800px);
+  margin: 0 auto;
+}

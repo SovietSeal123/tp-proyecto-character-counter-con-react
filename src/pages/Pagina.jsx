@@ -4,6 +4,7 @@ import { Card } from '../components/Card'
 import cardVioleta from "../assets/img/card-1.png"
 import cardNaranja from "../assets/img/card-2.png"
 import cardCoral from "../assets/img/card-3.png"
+import { BarrasProgreso } from '../components/BarrasProgreso'
 
 function Pagina() {
  
@@ -48,6 +49,14 @@ function Pagina() {
             clase="coral"
             icono={cardCoral}
         />
+      </div>
+      <h2 className="titulo-Densidad">Densidad de letras</h2>
+      <div className="contenedor-barras">
+        <BarrasProgreso letra="E" porcentaje={18} />
+        <BarrasProgreso letra="A" porcentaje={13} />
+        <BarrasProgreso letra="O" porcentaje={11} />
+        <BarrasProgreso letra="S" porcentaje={8} />
+        <BarrasProgreso letra="R" porcentaje={6} />
       </div>
     </>
   )

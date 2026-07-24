@@ -1,0 +1,33 @@
+.barra-letra {
+    width: clamp(250px, 70vw, 800px);
+    margin: 15px auto;
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.letra {
+    width: 20px;
+    color: var(--textoPrincipal);
+}
+
+.barra {
+    flex: 1;
+    height: 10px;
+    background-color: var(--bordes);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progreso {
+    height: 100%;
+    background-color: var(--barraProgreso);
+    border-radius: 10px;
+}
+
+.porcentaje {
+    width: 45px;
+    text-align: right;
+    color: var(--textoSecundario);
+}

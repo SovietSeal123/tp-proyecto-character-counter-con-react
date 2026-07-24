@@ -20,6 +20,10 @@
   --cardCoral: #FF8A65;
   --barraProgreso: #D19BFF;
   --bordes: #2A2D3A;
+  --fondoBotonO: #2A2D3A;
+  --fondoBotonC: #E6E6E6;
+  --fondoBoton: #2A2D3A;
+  --fondoBotonHover: #3A3E4F;
 }
 
 body{
@@ -126,4 +130,37 @@ span, p{
 .contenedor-barras {
   width: clamp(250px, 70vw, 800px);
   margin: 0 auto;
+}
+
+.tema-oscuro {
+  --fondoPrincipal: #12131A;
+  --fondoGeneral: #1C1F2A;
+  --textoPrincipal: #F2F2F7;
+  --textoSecundario: #B4B7C9;
+  --cardVioleta: #C99DFF;
+  --cardNaranja: #FFB21E;
+  --cardCoral: #FF8A65;
+  --barraProgreso: #D19BFF;
+  --bordes: #2A2D3A;
+  --fondoBoton: #F2F2F7;
+  --fondoBotonHover: #FFFFFF;
+}
+
+.tema-claro {
+  --fondoPrincipal: #F2F2F7;
+  --fondoGeneral: #FFFFFF;
+  --textoPrincipal: #12131A;
+  --textoSecundario: #5A5A5A;
+  --cardVioleta: #C99DFF;
+  --cardNaranja: #FFB21E;
+  --cardCoral: #FF8A65;
+  --barraProgreso: #9C6ADE;
+  --bordes: #CFCFCF;
+  --fondoBoton: #2A2D3A;
+  --fondoBotonHover: #3A3E4F;
+}
+
+.tema-oscuro, .tema-claro {
+    background-color: var(--fondoPrincipal);
+    min-height: 100vh;
 }

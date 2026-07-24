@@ -8,10 +8,16 @@ import { BarrasProgreso } from '../components/BarrasProgreso'
 
 function Pagina() {
  
+  const [temaOscuro, setTemaOscuro] = useState(true);
+
+  const cambiarTema = () => {
+    setTemaOscuro(!temaOscuro);
+    console.log(temaOscuro)
+  }
 
   return (
-    <>
-      <Header />
+    <div className={temaOscuro ? "tema-oscuro" : "tema-claro"}>
+      <Header cambiarTema={cambiarTema}/>
       <h1>Analyze your text in real-time</h1>
       <div className="contenedor-textarea">
         <textarea
@@ -58,7 +64,7 @@ function Pagina() {
         <BarrasProgreso letra="S" porcentaje={8} />
         <BarrasProgreso letra="R" porcentaje={6} />
       </div>
-    </>
+    </div>
   )
 }
 
